@@ -3,4 +3,4 @@ FROM node:8.11
 RUN set -x \
     && mkdir /tmp/build \
     && npm i -g serverless \
-        checkless-cli@1.5.9
+        checkless-cli@1.7.0
